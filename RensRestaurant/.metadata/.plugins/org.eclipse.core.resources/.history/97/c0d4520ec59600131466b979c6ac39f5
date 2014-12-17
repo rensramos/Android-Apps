@@ -1,0 +1,1248 @@
+package com.example.tapthepath;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class MainActivity extends Activity  {
+
+
+String value2="" ,value3="",value4="",value5="",value6="",value7="",value8=""
+,value9="",value10="",value11="",value12="",value13="",value14="",value15="",
+value16="",value17="",value18="",value19="",value20="",value21="",value22=""
+,value23="",value24="",value25="",value26="",value27="",value28="",value29=""
+,value30="",value31="",value32="",value33="",value34="",value35="";
+int countx=0;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		final Button btnstart=(Button)findViewById(R.id.button1);
+		final Button btn2=(Button)findViewById(R.id.button2);
+		final Button btn3=(Button)findViewById(R.id.button3);
+		final Button btn4=(Button)findViewById(R.id.button4);
+		final Button btn5=(Button)findViewById(R.id.button5);
+		final Button btn6=(Button)findViewById(R.id.button6);
+		final Button btn7=(Button)findViewById(R.id.button7);
+		final Button btn8=(Button)findViewById(R.id.button8);
+		final Button btn9=(Button)findViewById(R.id.button9);
+		final Button btn10=(Button)findViewById(R.id.button10);
+		final Button btn11=(Button)findViewById(R.id.button11);
+		final Button btn12=(Button)findViewById(R.id.button12);
+		final Button btn13=(Button)findViewById(R.id.button13);
+		final Button btn14=(Button)findViewById(R.id.button14);
+		final Button btn15=(Button)findViewById(R.id.button15);
+		final Button btn16=(Button)findViewById(R.id.button16);
+		final Button btn17=(Button)findViewById(R.id.button17);
+		final Button btn18=(Button)findViewById(R.id.button18);
+		final Button btn19=(Button)findViewById(R.id.button19);
+		final Button btn20=(Button)findViewById(R.id.button20);
+		final Button btn21=(Button)findViewById(R.id.button21);
+		final Button btn22=(Button)findViewById(R.id.button22);
+		final Button btn23=(Button)findViewById(R.id.button23);
+		final Button btn24=(Button)findViewById(R.id.button24);
+		final Button btn25=(Button)findViewById(R.id.button25);
+		final Button btn26=(Button)findViewById(R.id.button26);
+		final Button btn27=(Button)findViewById(R.id.button27);
+		final Button btn28=(Button)findViewById(R.id.button28);
+		final Button btn29=(Button)findViewById(R.id.button29);
+		final Button btn30=(Button)findViewById(R.id.button30);
+		final Button btn31=(Button)findViewById(R.id.button31);
+		final Button btn32=(Button)findViewById(R.id.button32);
+		final Button btn33=(Button)findViewById(R.id.button33);
+		final Button btn34=(Button)findViewById(R.id.button34);
+		final Button btn35=(Button)findViewById(R.id.button35);
+		final Button btnend=(Button)findViewById(R.id.button36);
+		
+		btn2.setEnabled(false);
+		btn3.setEnabled(false);
+		btn4.setEnabled(false);
+		btn5.setEnabled(false);
+		btn6.setEnabled(false);
+		btn7.setEnabled(false);
+		btn8.setEnabled(false);
+		btn9.setEnabled(false);
+		btn10.setEnabled(false);
+		btn11.setEnabled(false);
+		btn12.setEnabled(false);
+		btn13.setEnabled(false);
+		btn14.setEnabled(false);
+		btn15.setEnabled(false);
+		btn16.setEnabled(false);
+		btn17.setEnabled(false);
+		btn18.setEnabled(false);
+		btn19.setEnabled(false);
+		btn20.setEnabled(false);
+		btn21.setEnabled(false);
+		btn22.setEnabled(false);
+		btn23.setEnabled(false);
+		btn24.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		btnend.setEnabled(false);
+		
+		
+	
+		
+		
+	
+		btnstart.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View v) {
+				btnstart.setEnabled(false);
+				btn2.setEnabled(true);
+				btn7.setEnabled(true);
+				btn8.setEnabled(true);
+			}	
+			
+		});
+		
+		btn2.setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				
+				if(value7.equals("O")){
+					btn7.setEnabled(false);}
+				
+				if(value8.equals("O")){
+					btn8.setEnabled(false);}
+				
+				if(value9.equals("O")){
+					btn9.setEnabled(false);}
+				
+				if(value3.equals("O")){
+					btn3.setEnabled(false);}
+				
+				if (value7.equals("")){
+					btn7.setEnabled(true);
+				}
+				if (value8.equals("")){
+					btn8.setEnabled(true);
+				}
+				if (value9.equals("")){
+					btn9.setEnabled(true);
+				}
+				if (value3.equals("")){
+					btn3.setEnabled(true);
+				}
+					
+				btn2.setText("O");
+				btn2.setEnabled(false);
+				btn13.setEnabled(false);
+				btn14.setEnabled(false);
+				btn15.setEnabled(false);
+				btn16.setEnabled(false);
+				btn17.setEnabled(false);
+				btn18.setEnabled(false);
+				btn19.setEnabled(false);
+				btn20.setEnabled(false);
+				btn21.setEnabled(false);
+				btn22.setEnabled(false);
+				btn23.setEnabled(false);
+				btn24.setEnabled(false);
+				btn25.setEnabled(false);
+				btn26.setEnabled(false);
+				btn27.setEnabled(false);
+				btn28.setEnabled(false);
+				btn29.setEnabled(false);
+				btn30.setEnabled(false);
+				btn31.setEnabled(false);
+				btn32.setEnabled(false);
+				btn33.setEnabled(false);
+				btn34.setEnabled(false);
+				btn35.setEnabled(false);
+				value2=btn2.getText().toString();
+				
+			}
+			
+		});
+		
+		btn3.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View v) {
+			
+			if(value2.equals("O")){
+				btn2.setEnabled(false);
+			}
+			if(value8.equals("O")){
+				btn8.setEnabled(false);
+			}
+			if(value9.equals("O")){
+				btn9.setEnabled(false);
+			}
+			if(value10.equals("O")){
+				btn10.setEnabled(false);
+			}
+			if(value4.equals("O")){
+				btn4.setEnabled(false);
+			}
+		
+			if(value2.equals("")){
+				btn2.setEnabled(true);
+			}
+			if(value8.equals("")){
+				btn8.setEnabled(true);
+			}
+			if(value9.equals("")){
+				btn9.setEnabled(true);
+			}
+			if(value10.equals("")){
+				btn10.setEnabled(true);
+			}
+			if(value4.equals("")){
+				btn4.setEnabled(true);
+			}
+		
+			btn3.setText("O");
+			btn3.setEnabled(false);
+			btn7.setEnabled(false);
+			btn13.setEnabled(false);
+			btn14.setEnabled(false);
+			btn15.setEnabled(false);
+			btn16.setEnabled(false);
+			btn17.setEnabled(false);
+			btn18.setEnabled(false);
+			btn19.setEnabled(false);
+			btn20.setEnabled(false);
+			btn21.setEnabled(false);
+			btn22.setEnabled(false);
+			btn23.setEnabled(false);
+			btn24.setEnabled(false);
+			btn25.setEnabled(false);
+			btn26.setEnabled(false);
+			btn27.setEnabled(false);
+			btn28.setEnabled(false);
+			btn29.setEnabled(false);
+			btn30.setEnabled(false);
+			btn31.setEnabled(false);
+			btn32.setEnabled(false);
+			btn33.setEnabled(false);
+			btn34.setEnabled(false);
+			btn35.setEnabled(false);
+			value3=btn3.getText().toString();
+			}
+			
+		});
+		
+btn4.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+	
+		
+	if(value3.equals("O")){
+		btn3.setEnabled(false);
+	}
+	if(value9.equals("O")){
+		btn9.setEnabled(false);
+	}
+	if(value10.equals("O")){
+		btn10.setEnabled(false);
+	}
+	if(value11.equals("O")){
+		btn11.setEnabled(false);
+	}
+	if(value5.equals("O")){
+		btn5.setEnabled(false);
+	}
+
+	if(value3.equals("")){
+		btn3.setEnabled(true);
+	}
+	if(value9.equals("")){
+		btn9.setEnabled(true);
+	}
+	if(value10.equals("")){
+		btn10.setEnabled(true);
+	}
+	if(value11.equals("")){
+		btn11.setEnabled(true);
+	}
+	if(value5.equals("")){
+		btn5.setEnabled(true);
+	}
+	btn4.setText("O");
+	btn4.setEnabled(false);
+	btn8.setEnabled(false);
+	btn13.setEnabled(false);
+	btn14.setEnabled(false);
+	btn15.setEnabled(false);
+	btn16.setEnabled(false);
+	btn17.setEnabled(false);
+	btn18.setEnabled(false);
+	btn19.setEnabled(false);
+	btn20.setEnabled(false);
+	btn21.setEnabled(false);
+	btn22.setEnabled(false);
+	btn23.setEnabled(false);
+	btn24.setEnabled(false);
+	btn25.setEnabled(false);
+	btn26.setEnabled(false);
+	btn27.setEnabled(false);
+	btn28.setEnabled(false);
+	btn29.setEnabled(false);
+	btn30.setEnabled(false);
+	btn31.setEnabled(false);
+	btn32.setEnabled(false);
+	btn33.setEnabled(false);
+	btn34.setEnabled(false);
+	btn35.setEnabled(false);
+	value4=btn4.getText().toString();
+	
+	}
+			
+		});
+
+btn5.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {	
+		if(value4.equals("O")){
+			btn4.setEnabled(false);
+		}
+		if(value10.equals("O")){
+			btn10.setEnabled(false);
+		}
+		if(value11.equals("O")){
+			btn11.setEnabled(false);
+		}
+		if(value12.equals("O")){
+			btn12.setEnabled(false);
+		}
+		if(value6.equals("O")){
+			btn6.setEnabled(false);
+		}
+
+		if(value4.equals("")){
+			btn4.setEnabled(true);
+		}
+		if(value10.equals("")){
+			btn10.setEnabled(true);
+		}
+		if(value11.equals("")){
+			btn11.setEnabled(true);
+		}
+		if(value12.equals("")){
+			btn12.setEnabled(true);
+		}
+		if(value6.equals("")){
+			btn6.setEnabled(true);
+		}
+		btn5.setText("O");
+		btn5.setEnabled(false);
+		btn9.setEnabled(false);
+		btn13.setEnabled(false);
+		btn14.setEnabled(false);
+		btn15.setEnabled(false);
+		btn16.setEnabled(false);
+		btn17.setEnabled(false);
+		btn18.setEnabled(false);
+		btn19.setEnabled(false);
+		btn20.setEnabled(false);
+		btn21.setEnabled(false);
+		btn22.setEnabled(false);
+		btn23.setEnabled(false);
+		btn24.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		value5=btn5.getText().toString();
+	}
+	
+});
+
+btn6.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+			
+		if(value5.equals("O")){
+			btn5.setEnabled(false);
+		}
+		if(value11.equals("O")){
+			btn11.setEnabled(false);
+		}
+		if(value12.equals("O")){
+			btn12.setEnabled(false);
+		}
+
+		if(value5.equals("")){
+			btn5.setEnabled(true);
+		}
+		if(value11.equals("")){
+			btn11.setEnabled(true);
+		}
+		if(value12.equals("")){
+			btn12.setEnabled(true);
+		}
+		btn6.setText("O");
+		btn6.setEnabled(false);
+		btn10.setEnabled(false);
+		btn13.setEnabled(false);
+		btn14.setEnabled(false);
+		btn15.setEnabled(false);
+		btn16.setEnabled(false);
+		btn17.setEnabled(false);
+		btn18.setEnabled(false);
+		btn19.setEnabled(false);
+		btn20.setEnabled(false);
+		btn21.setEnabled(false);
+		btn22.setEnabled(false);
+		btn23.setEnabled(false);
+		btn24.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		value6=btn6.getText().toString();
+	}
+	
+});
+
+btn7.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value2.equals("O")){
+			btn2.setEnabled(false);}
+		if(value13.equals("O")){
+			btn13.setEnabled(false);}
+		if(value14.equals("O")){
+			btn14.setEnabled(false);}
+		if(value8.equals("O")){
+			btn8.setEnabled(false);}
+
+		if(value2.equals("")){
+			btn2.setEnabled(true);}
+		if(value13.equals("")){
+			btn13.setEnabled(true);}
+		if(value14.equals("")){
+			btn14.setEnabled(true);}
+		if(value8.equals("")){
+			btn8.setEnabled(true);}
+		
+		btn7.setText("O");
+		btn7.setEnabled(false);
+		btn19.setEnabled(false);
+		btn20.setEnabled(false);
+		btn21.setEnabled(false);
+		btn22.setEnabled(false);
+		btn23.setEnabled(false);
+		btn24.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		value7=btn7.getText().toString();
+		
+	}
+	
+});
+
+btn8.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value2.equals("O")){
+			btn2.setEnabled(false);}
+		if(value13.equals("O")){
+			btn13.setEnabled(false);}
+		if(value14.equals("O")){
+			btn14.setEnabled(false);}
+		if(value7.equals("O")){
+			btn7.setEnabled(false);}
+		if(value15.equals("O")){
+			btn15.setEnabled(false);}
+		if(value9.equals("O")){
+			btn9.setEnabled(false);}
+		if(value3.equals("O")){
+			btn3.setEnabled(false);}
+
+		if(value2.equals("")){
+			btn2.setEnabled(true);}
+		if(value13.equals("")){
+			btn13.setEnabled(true);}
+		if(value14.equals("")){
+			btn14.setEnabled(true);}
+		if(value7.equals("")){
+			btn7.setEnabled(true);}
+		if(value15.equals("")){
+			btn15.setEnabled(true);}
+		if(value9.equals("")){
+			btn9.setEnabled(true);}
+		if(value3.equals("")){
+			btn3.setEnabled(true);}
+		
+		btn8.setText("O");
+		btn8.setEnabled(false);
+		btn19.setEnabled(false);
+		btn20.setEnabled(false);
+		btn21.setEnabled(false);
+		btn22.setEnabled(false);
+		btn23.setEnabled(false);
+		btn24.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		value8=btn8.getText().toString();
+	}
+	
+});
+
+btn9.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		
+		if(value2.equals("O")){
+			btn2.setEnabled(false);}
+		if(value8.equals("O")){
+			btn8.setEnabled(false);}
+		if(value14.equals("O")){
+			btn14.setEnabled(false);}
+		if(value15.equals("O")){
+			btn15.setEnabled(false);}
+		if(value16.equals("O")){
+			btn16.setEnabled(false);}
+		if(value10.equals("O")){
+			btn10.setEnabled(false);}
+		if(value4.equals("O")){
+			btn4.setEnabled(false);}
+		if(value3.equals("O")){
+			btn3.setEnabled(false);}
+	
+		if(value2.equals("")){
+			btn2.setEnabled(true);}
+		if(value8.equals("")){
+			btn8.setEnabled(true);}
+		if(value14.equals("")){
+			btn14.setEnabled(true);}
+		if(value15.equals("")){
+			btn15.setEnabled(true);}
+		if(value16.equals("")){
+			btn16.setEnabled(true);}
+		if(value10.equals("")){
+			btn10.setEnabled(true);}
+		if(value4.equals("")){
+			btn4.setEnabled(true);}
+		if(value3.equals("")){
+			btn3.setEnabled(true);}
+		
+		btn9.setText("O");
+		btn9.setEnabled(false);
+		btn13.setEnabled(false);
+		btn19.setEnabled(false);
+		btn20.setEnabled(false);
+		btn21.setEnabled(false);
+		btn22.setEnabled(false);
+		btn23.setEnabled(false);
+		btn24.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		value9=btn9.getText().toString();
+	}
+	
+});
+
+btn10.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value3.equals("O")){
+			btn3.setEnabled(false);}
+		if(value9.equals("O")){
+			btn9.setEnabled(false);}
+		if(value15.equals("O")){
+			btn15.setEnabled(false);}
+		if(value16.equals("O")){
+			btn16.setEnabled(false);}
+		if(value17.equals("O")){
+			btn17.setEnabled(false);}
+		if(value11.equals("O")){
+			btn11.setEnabled(false);}
+		if(value5.equals("O")){
+			btn5.setEnabled(false);}
+		if(value4.equals("O")){
+			btn4.setEnabled(false);}
+	
+		if(value3.equals("")){
+			btn3.setEnabled(true);}
+		if(value9.equals("")){
+			btn9.setEnabled(true);}
+		if(value15.equals("")){
+			btn15.setEnabled(true);}
+		if(value16.equals("")){
+			btn16.setEnabled(true);}
+		if(value17.equals("")){
+			btn17.setEnabled(true);}
+		if(value11.equals("")){
+			btn11.setEnabled(true);}
+		if(value5.equals("")){
+			btn5.setEnabled(true);}
+		if(value4.equals("")){
+			btn4.setEnabled(true);}
+		
+		btn10.setText("O");
+		btn10.setEnabled(false);
+		btn2.setEnabled(false);
+		btn2.setEnabled(false);
+		btn14.setEnabled(false);
+		btn19.setEnabled(false);
+		btn20.setEnabled(false);
+		btn21.setEnabled(false);
+		btn22.setEnabled(false);
+		btn23.setEnabled(false);
+		btn24.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		value10=btn10.getText().toString();
+		
+	}
+	
+});
+
+btn11.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value4.equals("O")){
+			btn4.setEnabled(false);}
+		if(value10.equals("O")){
+			btn10.setEnabled(false);}
+		if(value16.equals("O")){
+			btn16.setEnabled(false);}
+		if(value17.equals("O")){
+			btn17.setEnabled(false);}
+		if(value18.equals("O")){
+			btn18.setEnabled(false);}
+		if(value12.equals("O")){
+			btn12.setEnabled(false);}
+		if(value6.equals("O")){
+			btn6.setEnabled(false);}
+		if(value5.equals("O")){
+			btn5.setEnabled(false);}
+	
+		if(value4.equals("")){
+			btn4.setEnabled(true);}
+		if(value10.equals("")){
+			btn10.setEnabled(true);}
+		if(value16.equals("")){
+			btn16.setEnabled(true);}
+		if(value17.equals("")){
+			btn17.setEnabled(true);}
+		if(value18.equals("")){
+			btn18.setEnabled(true);}
+		if(value12.equals("")){
+			btn12.setEnabled(true);}
+		if(value6.equals("")){
+			btn6.setEnabled(true);}
+		if(value5.equals("")){
+			btn5.setEnabled(true);}
+		
+		btn11.setBackgroundColor(0xffff0000);
+		btn11.setTextColor(0xffffffff);
+		btn11.setText("O");
+		btn11.setEnabled(false);
+		btn3.setEnabled(false);
+		btn9.setEnabled(false);
+		btn15.setEnabled(false);
+		btn19.setEnabled(false);
+		btn20.setEnabled(false);
+		btn21.setEnabled(false);
+		btn22.setEnabled(false);
+		btn23.setEnabled(false);
+		btn24.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		value11=btn11.getText().toString();
+		countx++;
+	}
+	
+});
+
+btn12.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value5.equals("O")){
+			btn5.setEnabled(false);}
+		if(value11.equals("O")){
+			btn11.setEnabled(false);}
+		if(value17.equals("O")){
+			btn17.setEnabled(false);}
+		if(value18.equals("O")){
+			btn18.setEnabled(false);}
+		if(value6.equals("O")){
+			btn6.setEnabled(false);}
+	
+		if(value5.equals("")){
+			btn5.setEnabled(true);}
+		if(value11.equals("")){
+			btn11.setEnabled(true);}
+		if(value17.equals("")){
+			btn17.setEnabled(true);}
+		if(value18.equals("")){
+			btn18.setEnabled(true);}
+		if(value6.equals("")){
+			btn6.setEnabled(true);}
+		
+		btn12.setText("O");
+		btn12.setEnabled(false);
+		btn4.setEnabled(false);
+		btn10.setEnabled(false);
+		btn16.setEnabled(false);
+		btn19.setEnabled(false);
+		btn20.setEnabled(false);
+		btn21.setEnabled(false);
+		btn22.setEnabled(false);
+		btn23.setEnabled(false);
+		btn24.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		value12=btn12.getText().toString();
+		
+	}
+	
+});
+
+btn13.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value7.equals("O")){
+			btn7.setEnabled(false);}
+		if(value8.equals("O")){
+			btn8.setEnabled(false);}
+		if(value14.equals("O")){
+			btn14.setEnabled(false);}
+		if(value19.equals("O")){
+			btn19.setEnabled(false);}
+		if(value20.equals("O")){
+			btn20.setEnabled(false);}
+	
+		if(value7.equals("")){
+			btn7.setEnabled(true);}
+		if(value8.equals("")){
+			btn8.setEnabled(true);}
+		if(value14.equals("")){
+			btn14.setEnabled(true);}
+		if(value19.equals("")){
+			btn19.setEnabled(true);}
+		if(value20.equals("")){
+			btn20.setEnabled(true);}
+		
+		btn13.setText("O");
+		value13=btn13.getText().toString();
+		btn13.setEnabled(false);
+		btn12.setEnabled(false);
+		btn2.setEnabled(false);
+		btn3.setEnabled(false);
+		btn4.setEnabled(false);
+		btn5.setEnabled(false);
+		btn6.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		
+	}
+	
+});
+
+btn14.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value7.equals("O")){
+			btn7.setEnabled(false);}
+		if(value8.equals("O")){
+			btn8.setEnabled(false);}
+		if(value9.equals("O")){
+			btn9.setEnabled(false);}
+		if(value13.equals("O")){
+			btn13.setEnabled(false);}
+		if(value15.equals("O")){
+			btn15.setEnabled(false);}
+		if(value19.equals("O")){
+			btn19.setEnabled(false);}
+		if(value20.equals("O")){
+			btn20.setEnabled(false);}
+		if(value21.equals("O")){
+			btn21.setEnabled(false);}
+	
+		if(value7.equals("")){
+			btn7.setEnabled(true);}
+		if(value8.equals("")){
+			btn8.setEnabled(true);}
+		if(value9.equals("")){
+			btn9.setEnabled(true);}
+		if(value13.equals("")){
+			btn13.setEnabled(true);}
+		if(value15.equals("")){
+			btn15.setEnabled(true);}
+		if(value19.equals("")){
+			btn19.setEnabled(true);}
+		if(value20.equals("")){
+			btn20.setEnabled(true);}
+		if(value21.equals("")){
+			btn21.setEnabled(true);}
+		
+		btn14.setText("O");
+		btn14.setEnabled(false);
+		value14=btn14.getText().toString();
+		btn2.setEnabled(false);
+		btn3.setEnabled(false);
+		btn4.setEnabled(false);
+		btn5.setEnabled(false);
+		btn6.setEnabled(false);
+		btn25.setEnabled(false);
+		btn26.setEnabled(false);
+		btn27.setEnabled(false);
+		btn28.setEnabled(false);
+		btn29.setEnabled(false);
+		btn30.setEnabled(false);
+		btn31.setEnabled(false);
+		btn32.setEnabled(false);
+		btn33.setEnabled(false);
+		btn34.setEnabled(false);
+		btn35.setEnabled(false);
+		
+		
+	}
+	
+});
+
+btn15.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value8.equals("O")){
+			btn8.setEnabled(false);}
+		if(value9.equals("O")){
+			btn9.setEnabled(false);}
+		if(value10.equals("O")){
+			btn10.setEnabled(false);}
+		if(value14.equals("O")){
+			btn14.setEnabled(false);}
+		if(value16.equals("O")){
+			btn16.setEnabled(false);}
+		if(value20.equals("O")){
+			btn20.setEnabled(false);}
+		if(value21.equals("O")){
+			btn21.setEnabled(false);}
+		if(value22.equals("O")){
+			btn22.setEnabled(false);}
+		
+	
+		if(value8.equals("")){
+			btn8.setEnabled(true);}
+		if(value9.equals("")){
+			btn9.setEnabled(true);}
+		if(value10.equals("")){
+			btn10.setEnabled(true);}
+		if(value14.equals("")){
+			btn14.setEnabled(true);}
+		if(value16.equals("")){
+			btn16.setEnabled(true);}
+		if(value20.equals("")){
+			btn20.setEnabled(true);}
+		if(value21.equals("")){
+			btn21.setEnabled(true);}
+		if(value22.equals("")){
+			btn22.setEnabled(true);}
+		
+		btn15.setText("O");
+		value15=btn15.getText().toString();
+		btn15.setEnabled(false);
+	}
+	
+});
+
+btn16.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value11.equals("O")){
+			btn11.setEnabled(false);}
+		if(value9.equals("O")){
+			btn9.setEnabled(false);}
+		if(value10.equals("O")){
+			btn10.setEnabled(false);}
+		if(value15.equals("O")){
+			btn15.setEnabled(false);}
+		if(value17.equals("O")){
+			btn17.setEnabled(false);}
+		if(value23.equals("O")){
+			btn23.setEnabled(false);}
+		if(value21.equals("O")){
+			btn21.setEnabled(false);}
+		if(value22.equals("O")){
+			btn22.setEnabled(false);}
+		
+	
+		if(value11.equals("")){
+			btn11.setEnabled(true);}
+		if(value9.equals("")){
+			btn9.setEnabled(true);}
+		if(value10.equals("")){
+			btn10.setEnabled(true);}
+		if(value15.equals("")){
+			btn15.setEnabled(false);}
+		if(value17.equals("")){
+			btn17.setEnabled(true);}
+		if(value23.equals("")){
+			btn23.setEnabled(true);}
+		if(value21.equals("")){
+			btn21.setEnabled(true);}
+		if(value22.equals("")){
+			btn22.setEnabled(true);}
+		
+		btn16.setText("O");
+		value16=btn16.getText().toString();
+		btn16.setEnabled(false);
+		
+	}
+	
+});
+
+btn17.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		if(value11.equals("O")){
+			btn11.setEnabled(false);}
+		if(value9.equals("O")){
+			btn9.setEnabled(false);}
+		if(value10.equals("O")){
+			btn10.setEnabled(false);}
+		if(value15.equals("O")){
+			btn15.setEnabled(false);}
+		if(value17.equals("O")){
+			btn17.setEnabled(false);}
+		if(value23.equals("O")){
+			btn23.setEnabled(false);}
+		if(value21.equals("O")){
+			btn21.setEnabled(false);}
+		if(value22.equals("O")){
+			btn22.setEnabled(false);}
+		
+	
+		if(value11.equals("")){
+			btn11.setEnabled(true);}
+		if(value9.equals("")){
+			btn9.setEnabled(true);}
+		if(value10.equals("")){
+			btn10.setEnabled(true);}
+		if(value15.equals("")){
+			btn15.setEnabled(false);}
+		if(value17.equals("")){
+			btn17.setEnabled(true);}
+		if(value23.equals("")){
+			btn23.setEnabled(true);}
+		if(value21.equals("")){
+			btn21.setEnabled(true);}
+		if(value22.equals("")){
+			btn22.setEnabled(true);}
+		
+		btn17.setText("O");
+		value17=btn17.getText().toString();
+		btn17.setEnabled(false);
+		
+	}
+	
+});
+
+btn18.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn19.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn20.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		btn22.setBackgroundColor(0xffff0000);
+		btn22.setTextColor(0xffffffff);
+		countx++;
+	
+		
+	}
+	
+});
+
+btn21.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn22.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+
+	}	
+});
+
+btn23.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn24.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn25.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn26.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn27.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn28.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn29.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn30.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn31.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn32.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+btn33.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btn34.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		btn32.setBackgroundColor(0xffff0000);
+		btn32.setTextColor(0xffffffff);
+		countx++;
+		
+	}
+	
+});
+btn35.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+
+btnend.setOnClickListener(new OnClickListener(){
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+});
+		
+		
+		
+	}//end of upper
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}
